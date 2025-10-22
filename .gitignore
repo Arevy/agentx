@@ -27,7 +27,7 @@ pip-wheel-metadata/
 data/
 
 # Fine-tuned model checkpoints and large binaries
-models/
+# models/
 checkpoints/
 *.safetensors
 *.bin
