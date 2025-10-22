@@ -1,0 +1,41 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.dylib
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
+.DS_Store
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Training data generated locally (remove if you need to version it)
+data/
+
+# Fine-tuned model checkpoints and large binaries
+models/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+
+# Agent runtime memory snapshots
+memory_bank/
+
+# Local-only documentation
+docs/local_agent_prompt.md
+txt.txt
